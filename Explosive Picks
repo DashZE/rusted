@@ -1,0 +1,45 @@
+#EXPLOSIVE I
+on block break:
+	if player is (whatever you ned)
+		loop blocks in radius 1 of event-block:
+			if loop-block is cobblestone or coal_block or diamond_block or emerald_block or gold_block or iron_block or obsidian or any ore:
+				add loop-block to {_explosive.%player%::*}
+				loop {_explosive.%player%::*}:
+					drop loop-value
+					set loop-block to air
+#EXPLOSIVE II
+on block break:
+	if player is (whatever you ned)
+		loop blocks in radius 1.2 of event-block:
+			if loop-block is cobblestone or coal_block or diamond_block or emerald_block or gold_block or iron_block or obsidian or any ore:
+				add loop-block to {_explosive.%player%::*}
+				loop {_explosive.%player%::*}:
+					drop loop-value
+					set loop-block to air
+#EXPLOSIVE III
+on block break:
+	if player is (whatever you ned)
+		loop blocks in radius 1.5 of event-block:
+			if loop-block is cobblestone or coal_block or diamond_block or emerald_block or gold_block or iron_block or obsidian or any ore:
+				add loop-block to {_explosive.%player%::*}
+				loop {_explosive.%player%::*}:
+					drop loop-value
+					set loop-block to air
+#EXPLOSIVE IV
+on block break:
+	if player is (whatever you ned)
+		loop blocks in radius 1.7 of event-block:
+			if loop-block is cobblestone or coal_block or diamond_block or emerald_block or gold_block or iron_block or obsidian or any ore:
+				add loop-block to {_explosive.%player%::*}
+				loop {_explosive.%player%::*}:
+					drop loop-value
+					set loop-block to air
+#EXPLOSIVE V
+on block break:
+	if player is (whatever you ned)
+		loop blocks in radius 2 of event-block:
+			if loop-block is cobblestone or coal_block or diamond_block or emerald_block or gold_block or iron_block or obsidian or any ore:
+				add loop-block to {_explosive.%player%::*}
+				loop {_explosive.%player%::*}:
+					drop loop-value
+					set loop-block to air
